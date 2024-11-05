@@ -1,0 +1,49 @@
+.numberSelector{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -50px;
+    width: 80%;
+}
+.select{
+    display: flex;
+    flex-direction: column;
+     align-items: end;
+     gap: 20px;
+}
+.select p{
+    font-size: 25px;
+}
+
+.totalscore{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 10px solid green;
+    padding: 15px;
+    border-radius: 5px;
+}
+.totalscore p{
+    font-size: 30px;
+    
+}
+.selectnumber{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.selectnumber .box {
+    font-size: 50px;
+    border: 2px solid white;
+    padding: 14px;
+    font-weight: 700;
+}
+.dark{
+    background-color: #fff;
+    color: #000;
+}
+.match{
+    background-color: blue;
+    color: yellow;
+}

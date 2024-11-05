@@ -1,0 +1,64 @@
+.one,.two,.three,.four,.five,.six{
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+    border-radius: 20px;
+}
+
+.dot{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    background-color: rgb(69, 59, 59);
+    border: 2px solid white;
+     margin: 10px;
+}
+
+.two,.three,.four,.five,.six{
+position: relative;
+
+}
+.two .dot:nth-child(1){
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.two .dot:nth-child(2){
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+.three .dot:nth-child(3){
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.three .dot:nth-child(2){
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+.three .dot:nth-child(3){
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+.four-upper ,.four-lower,.five-upper,.five-lower,.six-upper,.six-middle,.six-lower{
+    display: flex;
+    flex-direction: column;
+    gap: 200px;
+}
+.four{
+    gap:200px;
+}
+.five {
+    gap: 50px;
+}
+.six{
+    gap:60px
+}
